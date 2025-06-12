@@ -54,32 +54,36 @@ Jika ingin menjalankan aplikasi di komputer lokal, Anda dapat mengikuti langkah-
 1. Clone repository dari Github:
 
     ````
-      git clone https://github.com/syaokifaradisa9/Student-Performance-Dicoding.git
+    git clone https://github.com/syaokifaradisa9/Student-Performance-Dicoding.git
     ````
 
 2. Masuk ke direktori proyek dan buat virtual environment baru:
 
     ````
-      cd Student-Performance-Dicoding
-      python -m venv env
-      source env/bin/activate  # Pada Windows gunakan: env\Scripts\activate
+    cd Student-Performance-Dicoding
+    python -m venv env
+    source env/bin/activate  # Pada Windows gunakan: env\Scripts\activate
     ````
 
 3. Instal semua library yang dibutuhkan dari file requirements.txt:
 
     ````
-      pip install -r requirements.txt
+    pip install -r requirements.txt
     ````
 
 4. Jalankan aplikasi Streamlit:
 
     ````
-      streamlit run app.py
+    streamlit run app.py
     ````
 
 ## Conclusion
 
-Jelaskan konklusi dari proyek yang dikerjakan.
+Proyek ini secara keseluruhan berhasil menjawab tantangan tingginya angka dropout mahasiswa di Jaya Jaya Institut dengan menyediakan solusi berbasis data yang komprehensif. Melalui analisis mendalam, proyek ini mengidentifikasi bahwa faktor-faktor krusial yang mempengaruhi kelulusan mahasiswa adalah kondisi finansial (seperti status pembayaran UKT dan kepemilikan hutang) , status penerima beasiswa , serta performa akademik di semester-semester awal. Latar belakang sosio-ekonomi orang tua, seperti pekerjaan dan pendidikan terakhir, juga teridentifikasi sebagai faktor yang berpengaruh.
+
+Puncak dari proyek ini adalah pengembangan dua aset utama: dasbor visual untuk pemantauan tren  dan prototipe sistem machine learning yang fungsional dan dapat diakses secara online. Gabungan kedua alat ini mengubah pendekatan institusi dari yang semula reaktif terhadap masalah dropout, menjadi proaktif dalam mencegahnya.
+
+Kini, Jaya Jaya Institut memiliki kapabilitas untuk mendeteksi secara dini mahasiswa yang berisiko dropout  dengan menggunakan prediksi berbasis data. Hal ini memungkinkan alokasi sumber daya yang jauh lebih efisien untuk program intervensi, seperti bimbingan akademik, konseling finansial, dan dukungan lainnya yang dapat ditargetkan secara tepat sasaran. Dengan demikian, proyek ini tidak hanya menyediakan analisis sesaat, tetapi juga memberikan sebuah sistem berkelanjutan yang dapat membantu Jaya Jaya Institut dalam misinya untuk menekan angka dropout, meningkatkan tingkat kelulusan, dan memperkuat reputasinya sebagai institusi pendidikan unggul
 
 ### Rekomendasi Action Items
 
